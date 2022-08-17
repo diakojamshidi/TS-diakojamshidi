@@ -9,6 +9,7 @@ function App() {
           <Routes key={item.Key}>
             <Route path={item.Path} element={<item.Component />} />
           </Routes>
+          
         );
       })}
     </>
